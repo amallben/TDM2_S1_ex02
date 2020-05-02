@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/item_numero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"
+            android:text="Numero"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorLight"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/item_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nom"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+        <TextView
+        android:id="@+id/item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

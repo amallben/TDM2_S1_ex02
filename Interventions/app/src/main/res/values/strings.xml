@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InterventionsFichier</string>
+    <string name="num">Numéro</string>
+    <string name="Nom">Nom</string>
+    <string name="Type">Type Intervention</string>
+    <string name="Date">Date</string>
+    <string name="add">ADD</string>
+
+</resources>
